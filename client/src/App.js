@@ -11,7 +11,7 @@ const App = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://localhost:8000/auth/login/success", {
+      fetch("https://react-oath-api.vercel.app/login/success", {
         method: "GET",
         credentials: "include",
         headers: {
